@@ -13,6 +13,7 @@ module.exports = {
   },
   output: {
     // publicPath: `https://weback-module-federation-poc-host.netlify.app/`,
+    // publicPath: `http://localhost:8081/`,
     clean: true
   },
   module: {

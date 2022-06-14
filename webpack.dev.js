@@ -6,16 +6,14 @@ const deps = require("./package.json").dependencies;
 
 const LOCAL = process.env.LOCAL === "true";
 
-const PORT = 8081;
-
 module.exports = {
   mode: "development",
   target: "web",
   output: {
-    publicPath: `http://localhost:${PORT}/`,
+    publicPath: `http://localhost:8081/`,
   },
   devServer: {
-    port: PORT,
+    port: 8081,
     historyApiFallback: true,
     // Otherwise hot reload in the host failed with a CORS error
     headers: {
