@@ -12,8 +12,8 @@ module.exports = {
     minimize: true
   },
   output: {
-    // publicPath: `https://weback-module-federation-poc-host.netlify.app/`,
-    // publicPath: `http://localhost:8081/`,
+    publicPath: "https://webpack-module-federation-poc-remote-1.netlify.app/",
+    // publicPath: "http://localhost:8081/"",
     clean: true
   },
   module: {
