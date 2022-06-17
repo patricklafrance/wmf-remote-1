@@ -10,7 +10,7 @@ module.exports = {
   mode: "development",
   target: "web",
   output: {
-    publicPath: `http://localhost:8081/`,
+    publicPath: "http://localhost:8081/",
   },
   devServer: {
     port: 8081,
